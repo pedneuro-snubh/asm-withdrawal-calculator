@@ -3,7 +3,7 @@
 Web calculator for the probability of successful antiseizure medication (ASM)
 withdrawal in pediatric-onset epilepsy, Seoul National University Bundang Hospital.
 
-Live: https://pedneuro-snubh.github.io/asm-withdrawal/
+Live: https://pedneuro-snubh.github.io/asm-withdrawal-calculator/
 
 All computation runs in the browser. Nothing entered on the page is sent anywhere.
 
