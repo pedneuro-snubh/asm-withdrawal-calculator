@@ -1,0 +1,260 @@
+{
+ "combined": {
+  "inputs": [
+   "Gender",
+   "Age of seizure onset",
+   "IED presence at diagnosis",
+   "Abnormal MRI findings",
+   "Classified as self-limited epilepsy",
+   "Significant Epilepsy Etiology",
+   "Developmental delay",
+   "Family history of epilepsy",
+   "History of febrile seizure",
+   "Epilepsy type",
+   "History of status epilepticus at diagnosis",
+   "# of sz. before withdrawal",
+   "Epilepsy duration before withdrawal",
+   "Sz. free interval before withdrawal",
+   "# of ASM before withdrawal",
+   "IED presence before withdrawal"
+  ],
+  "intercept": 0.6586040097362132,
+  "terms": [
+   {
+    "kind": "scaled",
+    "col": "Age of seizure onset",
+    "mean": 87.30254777070064,
+    "scale": 46.12252644574193,
+    "coef": -0.6090538989398768
+   },
+   {
+    "kind": "scaled",
+    "col": "# of sz. before withdrawal",
+    "mean": 0.2229299363057325,
+    "scale": 0.4162117007058482,
+    "coef": -0.09073362862000475
+   },
+   {
+    "kind": "scaled",
+    "col": "Epilepsy duration before withdrawal",
+    "mean": 15.194267515923567,
+    "scale": 21.681330552509024,
+    "coef": -0.20263525299935514
+   },
+   {
+    "kind": "scaled",
+    "col": "Sz. free interval before withdrawal",
+    "mean": 37.63057324840764,
+    "scale": 17.02818443864412,
+    "coef": 0.12164900472183489
+   },
+   {
+    "kind": "scaled",
+    "col": "# of ASM before withdrawal",
+    "mean": 1.1656050955414012,
+    "scale": 0.3884828199229785,
+    "coef": -0.3910014930675481
+   },
+   {
+    "kind": "onehot",
+    "col": "Epilepsy type",
+    "value": "F",
+    "coef": 0.34564443489089786
+   },
+   {
+    "kind": "onehot",
+    "col": "Epilepsy type",
+    "value": "FG",
+    "coef": 0.0
+   },
+   {
+    "kind": "onehot",
+    "col": "Epilepsy type",
+    "value": "G",
+    "coef": -0.07786125712395141
+   },
+   {
+    "kind": "onehot",
+    "col": "Epilepsy type",
+    "value": "U",
+    "coef": 0.0
+   },
+   {
+    "kind": "raw",
+    "col": "Gender",
+    "coef": -0.19456344206375384
+   },
+   {
+    "kind": "raw",
+    "col": "IED presence at diagnosis",
+    "coef": 0.0
+   },
+   {
+    "kind": "raw",
+    "col": "Abnormal MRI findings",
+    "coef": -0.9913650549746661
+   },
+   {
+    "kind": "raw",
+    "col": "Classified as self-limited epilepsy",
+    "coef": 2.3607643331460464
+   },
+   {
+    "kind": "raw",
+    "col": "Significant Epilepsy Etiology",
+    "coef": -0.7653873857650476
+   },
+   {
+    "kind": "raw",
+    "col": "Developmental delay",
+    "coef": -2.7814702473489055
+   },
+   {
+    "kind": "raw",
+    "col": "Family history of epilepsy",
+    "coef": -0.014634021833645601
+   },
+   {
+    "kind": "raw",
+    "col": "History of febrile seizure",
+    "coef": -0.4081307143257839
+   },
+   {
+    "kind": "raw",
+    "col": "History of status epilepticus at diagnosis",
+    "coef": -0.03834556525118302
+   },
+   {
+    "kind": "raw",
+    "col": "IED presence before withdrawal",
+    "coef": -0.14215544610043424
+   }
+  ]
+ },
+ "self_removed": {
+  "inputs": [
+   "Gender",
+   "Age of seizure onset",
+   "IED presence at diagnosis",
+   "Abnormal MRI findings",
+   "Significant Epilepsy Etiology",
+   "Developmental delay",
+   "Family history of epilepsy",
+   "History of febrile seizure",
+   "Epilepsy type",
+   "History of status epilepticus at diagnosis",
+   "# of sz. before withdrawal",
+   "Epilepsy duration before withdrawal",
+   "Sz. free interval before withdrawal",
+   "# of ASM before withdrawal",
+   "IED presence before withdrawal"
+  ],
+  "intercept": 0.6472132588460898,
+  "terms": [
+   {
+    "kind": "scaled",
+    "col": "Age of seizure onset",
+    "mean": 89.9627659574468,
+    "scale": 54.96849868487066,
+    "coef": -0.8357847067692874
+   },
+   {
+    "kind": "scaled",
+    "col": "# of sz. before withdrawal",
+    "mean": 0.14893617021276595,
+    "scale": 0.35602554320598956,
+    "coef": -0.028074606595278093
+   },
+   {
+    "kind": "scaled",
+    "col": "Epilepsy duration before withdrawal",
+    "mean": 17.414893617021278,
+    "scale": 24.999323214017124,
+    "coef": -0.22151112898292175
+   },
+   {
+    "kind": "scaled",
+    "col": "Sz. free interval before withdrawal",
+    "mean": 41.06382978723404,
+    "scale": 18.414441898659668,
+    "coef": 0.1619957581958354
+   },
+   {
+    "kind": "scaled",
+    "col": "# of ASM before withdrawal",
+    "mean": 1.2446808510638299,
+    "scale": 0.45396996368833764,
+    "coef": -0.5102240382623542
+   },
+   {
+    "kind": "onehot",
+    "col": "Epilepsy type",
+    "value": "F",
+    "coef": 0.32502084202464787
+   },
+   {
+    "kind": "onehot",
+    "col": "Epilepsy type",
+    "value": "FG",
+    "coef": -0.4391997650657639
+   },
+   {
+    "kind": "onehot",
+    "col": "Epilepsy type",
+    "value": "G",
+    "coef": 0.0
+   },
+   {
+    "kind": "onehot",
+    "col": "Epilepsy type",
+    "value": "U",
+    "coef": 0.06521995405805289
+   },
+   {
+    "kind": "raw",
+    "col": "Gender",
+    "coef": -0.2925140991418899
+   },
+   {
+    "kind": "raw",
+    "col": "IED presence at diagnosis",
+    "coef": 0.01879429468296577
+   },
+   {
+    "kind": "raw",
+    "col": "Abnormal MRI findings",
+    "coef": -0.9817821767187392
+   },
+   {
+    "kind": "raw",
+    "col": "Significant Epilepsy Etiology",
+    "coef": -0.8611424118568252
+   },
+   {
+    "kind": "raw",
+    "col": "Developmental delay",
+    "coef": -2.310947907478302
+   },
+   {
+    "kind": "raw",
+    "col": "Family history of epilepsy",
+    "coef": -0.4199672707363194
+   },
+   {
+    "kind": "raw",
+    "col": "History of febrile seizure",
+    "coef": -0.4740679002133306
+   },
+   {
+    "kind": "raw",
+    "col": "History of status epilepticus at diagnosis",
+    "coef": -0.2506518189649912
+   },
+   {
+    "kind": "raw",
+    "col": "IED presence before withdrawal",
+    "coef": -0.48261658236414035
+   }
+  ]
+ }
+}
